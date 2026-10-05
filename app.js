@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
   res.send('llegaste al servidor');
 });
 
+app.get('/healt', (req, res) => {
+  res.send('llegaste al servidor');
+});
+
 app.post('/usuario/', (req, res) => {
     
      var data = req.body;
